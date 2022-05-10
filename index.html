@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Godwin Alexander Ekainu" />
+    <meta name="description" content="This page contains me learning HTML" />
+    <title>My first web page</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+<body>
+    <h1>Welcome to the Little Taco Shop</h1>
+    <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#menu">Our Menu</a>
+        </li>
+        <li>
+          <a href="hour.html">Store Hours</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+    <figure>
+      <img
+        src="img/tacos_and_drink_400x267.png"
+        alt="tacos_and_drink_400x267"
+      />
+      <figcaption>
+        <p>Tacos and Drinks</p>
+      </figcaption>
+    </figure>
+    <hr />
+    <main>
+    
+    <section id="about">
+      <h1>About LTS</h1>
+      <p>
+        LTS was built in 2022. Our shop was built from the love for tacos.<br />
+        We hope our shop adds a unique beauty to our town
+      </p>
+      <h2>Taco Trivia</h2>
+      <aside>
+        <details>
+          <summary>When did Tacos first appear in America?</summary>
+          <p>
+            The Taco was first introduced to the United States in 1905. Mexican
+            migrants were coming in to work on railroads and other jobs and
+            started to bring their delicious food with them. Tacos were
+            essentially a street food at this time since they were highly
+            portable and cheap.
+          </p>
+        </details>
+      </aside>
+    </section>
+    <hr />
+    <article id="menu">
+        <h2>
+            Our Menu
+        </h2>
+      <table>
+        <caption>
+            Our Tacos
+          </caption>
+          <thead>
+              <tr>
+                  <th>
+                      Tacos
+                  </th>
+                  <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                  <th scope="col">Price</th>
+              </tr>
+          </thead>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">
+                    Crunchy
+                </th>
+                <td>1</td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$3.50</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">
+                    Soft
+                </th>
+                <td>1</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$4.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$5.50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    chips &amp; salsa $2
+                </td>
+            </tr>
+        </tfoot>
+      </table>
+      <br>
+      <a href="#">Back to the Top</a>
+    </article>
+ </main>
+ <hr>
+ <footer> 
+     CopyRight &copy; The Little Taco shop
+ </footer>
+</body>
+</html>
